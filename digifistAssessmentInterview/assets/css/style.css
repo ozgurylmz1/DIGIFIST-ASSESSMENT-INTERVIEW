@@ -1,0 +1,626 @@
+/* Background */
+
+body {
+    background : #ffffff;
+    margin : 0;
+    padding : 0;
+}
+
+/* Section */
+
+section {
+    position : relative;
+    width : 1440px;
+    height : 864px;
+}
+
+/* bg */
+
+.bg {
+    width : 720px;
+    height : 864px;
+    position : absolute;
+    left : 0%;
+    right : 0%;
+    top : 0%;
+    bottom : 0%;
+    background : url("../images/bg.jpg");
+}
+
+/* Content */
+
+.content {
+    position : absolute;
+    width : 720px;
+    height : 864px;
+    left : 720px;
+    top : 0px;
+}
+
+/* Rectangle */
+
+.rectangle {
+    position : absolute;
+    left : 0%;
+    right : 0%;
+    top : 0%;
+    bottom : 0%;
+}
+
+/* Everyday items, we have something to suit every occasion. */
+
+.firstTextArea {
+    position : absolute;
+    width : 494px;
+    height : 123px;
+    left : 120px;
+    top : 96px;
+}
+
+.firstText {
+    font-family : 'ITC Avant Garde Gothic Pro';
+    font-style : normal;
+    font-weight : 700;
+    font-size : 31.25px;
+    line-height : 130%;
+    /* or 41px */
+    display : flex;
+    align-items : flex-end;
+    color : #000000;
+}
+
+/* At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus. */
+
+.secondTextArea {
+    position : absolute;
+    width : 432px;
+    height : 52px;
+    left : 120px;
+    top : 250px;
+}
+
+.secondText {
+    font-family : 'Avenir';
+    font-style : normal;
+    font-weight : 400;
+    font-size : 16px;
+    line-height : 160%;
+    /* or 26px */
+    color : #666666;
+}
+
+.button {
+    cursor : pointer;
+    text-decoration : none;
+    position : relative;
+    top : 20px;
+
+    /* text-button */
+
+    width : 146px;
+    height : 17px;
+    /* margin-top : 15px; */
+
+    /* Button/Text Link Mobile */
+
+    font-family : 'Avenir';
+    font-style : normal;
+    font-weight : 900;
+    font-size : 12.8px;
+    line-height : 17px;
+    display : flex;
+    align-items : center;
+
+    /* Buttons/Primary */
+
+    color : #000000;
+
+
+    /* Inside auto layout */
+
+    flex : none;
+    order : 0;
+    flex-grow : 0;
+}
+
+.buton:active {
+    position : relative;
+    top : 2px;
+}
+
+.rectangle2 {
+
+/* Rectangle 299 */
+
+    width : 146px;
+    height : 2px;
+    font-weight : bold;
+    position : relative;
+    top : 17px;
+
+/* Background/Dark */
+
+    background : #000000;
+
+/* Inside auto layout */
+
+    flex : none;
+    order : 1;
+    align-self : stretch;
+    flex-grow : 0;
+}
+
+/* Products */
+
+.rectangle3 {
+    width : 906px;
+    height : 363px;
+    position : relative;
+    left : 0%;
+    right : -25.83%;
+    top : 365px;
+    bottom : 0%;
+}
+
+.product1 {
+    position : absolute;
+    width : 230px;
+    height : 363px;
+    left : 120px;
+    top : 68px;
+}
+
+.details1 {
+    position : absolute;
+    width : 230px;
+    height : 44px;
+    left : 0%;
+    right : 0%;
+    top : 88.71%;
+    bottom : -0.83%;
+}
+
+.frame1 {
+
+/* Frame 1 */
+
+/* Auto layout */
+
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : flex-start;
+    padding : 0px;
+    gap : 4px;
+
+    position : absolute;
+    width : 230px;
+    height : 44px;
+    left : 0px;
+    top : 0px;
+
+}
+
+.textFrame1 {
+
+/* Organic Skinny High Waist Jeans */
+
+    width : 230px;
+    height : 20px;
+
+/* Body/Body Mobile */
+
+    font-family : 'Avenir';
+    font-style : normal;
+    font-weight : 400;
+    font-size : 12.8px;
+    line-height : 160%;
+/* or 20px */
+
+
+/* Typography/Primary */
+
+    color : #000000;
+
+/* Inside auto layout */
+
+    flex : none;
+    order : 0;
+    flex-grow : 0;
+}
+
+.frame12 {
+
+/* Frame 25 */
+
+/* Auto layout */
+
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+    padding : 0px;
+    gap : 12px;
+
+    width : 230px;
+    height : 20px;
+
+
+/* Inside auto layout */
+
+    flex : none;
+    order : 1;
+    flex-grow : 0;
+}
+
+.price1 {
+
+/* Price */
+
+    width : 40px;
+    height : 20px;
+
+
+/* Inside auto layout */
+
+    flex : none;
+    order : 0;
+    flex-grow : 0;
+}
+
+.textFrame12 {
+
+/* €33.95 */
+
+    position : absolute;
+    width : 40px;
+    height : 20px;
+    left : 0%;
+    right : 82.61%;
+    top : 30px;
+    bottom : 0%;
+
+/* Body/Body Bold Mobile */
+
+    font-family : 'Avenir';
+    font-style : normal;
+    font-weight : 500;
+    font-size : 12.8px;
+    line-height : 160%;
+/* or 20px */
+
+    display : flex;
+    align-items : center;
+    text-align : center;
+
+/* Typography/Primary */
+
+    color : #000000;
+
+}
+
+.swatches {
+
+    /* Swatches */
+
+    width : 72px;
+    height : 12px;
+
+/* Inside auto layout */
+
+    flex : none;
+    order : 1;
+    flex-grow : 0;
+}
+
+.ellipse30 {
+
+/* Ellipse 30 */
+
+    box-sizing : border-box;
+    position : absolute;
+    width : 12px;
+    height : 12px;
+    left : 68.7%;
+    right : 26.09%;
+    top : 100%;
+    bottom : 0%;
+    border-radius : 50%;
+    background : #99C4CC;
+
+/* Background/Dark */
+
+    border : 1px solid #000000;
+
+}
+
+.ellipse31 {
+
+/* Ellipse 31 */
+
+    position : absolute;
+    width : 12px;
+    height : 12px;
+    left : 77.39%;
+    right : 17.39%;
+    top : 100%;
+    bottom : 0%;
+    border-radius : 50%;
+    background : #CC9999;
+
+}
+
+.ellipse32 {
+    
+/* Ellipse 32 */
+
+    position : absolute;
+    width : 12px;
+    height : 12px;
+    left : 86.09%;
+    right : 17.39%;
+    top : 100%;
+    bottom : 0%;
+    border-radius : 50%;
+    background : #CB99CC;
+
+}
+
+.ellipse33 {
+    
+/* Ellipse 33 */
+    
+    position : absolute;
+    width : 12px;
+    height : 12px;
+    left : 94.78%;
+    right : 17.39%;
+    top : 100%;
+    bottom : 0%;
+    border-radius : 50%;
+    background : #A6CC99;
+
+}
+
+.arrowScroll {
+
+/* Path (Stroke) */
+
+    position : relative;
+    width : 7px;
+    height : 13px;
+    left : 225%;
+    right : 0%;
+    top : 55%;
+    bottom : 0%;
+    clear : both;
+    font-size : 57px;
+
+}
+
+/* Media Tags ( Responsibility ) */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        margin : 0;
+        padding : 0;
+    }
+
+    /* Section */
+
+    section {
+        position : relative;
+        width : 360px;
+        height : 754px;
+        background : #ffffff;
+    }
+
+    /* bg */
+
+    .bg {
+        position : absolute;
+        left : 0%;
+        right : 0%;
+        top : 0%;
+        bottom : 0%;
+        background : url(../images/bg.jpg);
+    }
+
+    .content {
+        position : absolute;
+        left : 0%;
+        right : 0%;
+        top : 0%;
+        bottom : 42.04%;
+        background : linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 78.65%);
+    }
+
+    .rectangle {
+
+        position : absolute;
+        width : 312px;
+        height : 78px;
+        left : 24px;
+        top : 248px;
+    }
+
+    .firstTextArea {
+
+    /* Everyday tops, we have something to suit every occasion. */
+
+        position : absolute;
+        width : 445px;
+        height : 78px;
+        left : 24px;
+        top : 248px;
+
+    }
+
+    .firstText {
+
+    /* Heading/4 Mobile */
+
+        font-family : 'ITC Avant Garde Gothic Pro';
+        font-style : normal;
+        font-weight : 700;
+        font-size : 26px;
+        line-height : 130%;
+    /* or 26px */
+
+
+    /* Typography / White */
+
+        color : #FFFFFF;
+    }
+
+    .secondTextArea{
+        top : 280px;
+    }
+
+    .secondText {
+        display : none;
+    }
+
+
+    .button {
+
+    /* Button */
+
+    /* Auto layout */
+
+        display : flex;
+        flex-direction : column;
+        align-items : flex-start;
+        padding : 0px;
+        gap : 10px;
+        position : absolute;
+        width : 285px;
+        height : 23px;
+        left : -91px;
+        top : 105px;
+        font-size : 17.8px;
+        color : #ffffff;
+    }
+
+    .rectangle2 {
+        width : 206px;
+        position : relative;
+        top : 135px;
+        left : -92px;
+        background : #ffffff;
+    }
+
+    .rectangle3 {
+        right : 0%;
+        left : -30%; 
+        top : 407px;
+        width : 516px;
+        height : 293px;
+    }
+
+    .product1 {
+        width : 148px;
+        height : 200px;
+    }
+
+    .details1 {
+        top : 165%;
+    }
+
+    .frame1 {
+
+        /* Frame 1 */
+        
+        /* Auto layout */
+
+        position : absolute;
+        gap : 8px;
+    }
+
+    .textFrame1 {
+
+    /* Organic Skinny High Waist Jeans */
+
+        width : 149px;
+        height : 40px;
+        font-size : 17px;
+
+    }
+
+    .price1 {
+
+    /* Price */
+
+        order : 1;
+
+    }
+
+    .textFrame12 {
+
+    /* €33.95 */
+
+        right : 73.15%;
+        top : 103%;      
+        font-size : 17px;  
+
+    }
+
+    .swatches {
+        width : 66px;
+        height : 12px;
+    }
+
+    .ellipse30 {
+
+    /* Ellipse 30 */
+
+    left : 0%;
+    right : 91.95%;
+    top : 210%;
+    bottom : 0%;
+
+    }
+
+    .ellipse31 {
+
+    /* Ellipse 31 */
+
+        left : 9.08%;
+        right : 79.87%;
+        top : 210%;
+        bottom : 0%;
+
+    }
+
+    .ellipse32 {
+
+    /* Ellipse 32 */
+    
+        left : 18.08%;
+        right : 67.79%;
+        top : 210%;
+        bottom : 0%;
+    
+    }
+
+    .ellipse33 {
+
+        left : 27.08%;
+        right : 55.7%;
+        top : 210%;
+        bottom : 0%;
+
+    }
+
+    /* Scroll */
+
+    .arrowScroll {
+    
+        /* Path (Stroke) */
+
+        left : 100%;
+        top : 63%;
+    }
+
+}
